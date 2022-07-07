@@ -1,0 +1,515 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    color: red;
+    /*background-image: url('../recursos/aa57e2988c9209991e904dba02523729.jpg');
+background-repeat: no-repeat;
+background-size: cover;*/
+}
+/* HEADER */
+header{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    width: 100vw;
+}
+.header__nav {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    justify-content: flex-end;
+}
+.header__logo{
+    display: inline;
+}
+.header__lista{
+    display: flex;
+    list-style: none;
+    padding: 0 16px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-grow: 5;
+}
+.header__item{
+    display: inline;
+    padding: 20px;
+}
+.header__item a{
+    color: black;
+    text-decoration: none;
+}
+/* MAIN */
+main {
+    display: flex;
+    flex-direction: column;  /*<!--Pie de pagina  -->;*/ 
+    flex-wrap: wrap;
+    width: 100vw;
+}
+/* INDEX */ /* Primera seccion */
+.principio{
+    display: flex;
+    flex-grow: 3;
+    background-color: aqua;
+    margin-bottom: 50px;
+}
+.principio__portada{
+    width: 640px;
+    height: 725px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    background-color: blueviolet;
+}
+.principio__parrafo{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-grow: 1;
+    align-self: center;
+    background-color: darkgray;
+}
+/* INDEX */ /* Segunda seccion */
+.nosotros{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+    flex-wrap: nowrap;
+    background-color: bisque;
+    margin-bottom: 50px;
+}
+.nosotros__proyectos{
+    display: flex;
+    justify-content: center;
+}
+.nosotros__parrafo{
+    display: flex;
+    justify-content: center;
+}
+.nosotros__interaccion{
+    display: flex;
+    justify-content: flex-start;
+}
+.nosotros__art{
+    display: flex;
+    flex-grow: 3;
+    align-self: center;
+}
+/* INDEX */ /* Tercera seccion */
+.galeria{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color:lightpink;
+    margin-bottom: 50px;
+}
+.galeria__proyectos{
+    display: flex;
+    font-size: 32px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.galeria__index{
+    width: 400px;
+    padding: 10px;
+    cursor: pointer;
+}
+.galeria__art{
+    display: flex;
+    flex-direction: column;
+}
+.galeria__imagen{
+    width: 600px;
+    cursor: pointer;
+}
+.galeria__div{
+    display: flex;
+    flex-wrap: nowrap;
+}
+/* INDEX */ /* Cuarta seccion */
+.soluciones__grid{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 0.5fr 2fr 1fr 2fr 2fr 2fr 2fr 2fr 1fr 0.5fr ;
+    grid-template-rows:  2fr 1fr 1fr 1fr  ;
+}
+.destacada{
+    background-image: url("recursos/solucion.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-column: 2/3 ;
+    grid-row: 1/4 ;
+}
+.soluciones__div{
+    grid-column: 5/8 ;
+    grid-row: 1/2;
+}
+.soluciones__comunicacion{
+    grid-column: 4/6 ;
+    grid-row: 2/3;
+}
+.soluciones__detalles{
+    grid-column: 7/9 ;
+    grid-row: 2/3;
+}
+.soluciones__expectativas{
+    grid-column: 4/6 ;
+    grid-row: 3/4;
+}
+.soluciones__garantia{
+    grid-column: 7/9 ;
+    grid-row: 3/4;
+}
+/* INDEX */ /* Quinta seccion */
+.sketchfab-embed-wrapper{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: red;
+}
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(0, 11, 159, 0.821);
+}
+p  {
+    font-family: 'Poppins', sans-serif;;
+    color: rgba(0, 11, 159, 0.821);
+    background-color: aqua;
+}
+/* NOSOTROS */ /* Primera Seccion */
+.nos{
+    display: flex;
+    flex-grow: 3;
+    background-color: aqua;
+    margin-bottom: 50px;
+}
+.nos__portada{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    background-color: blueviolet;
+}
+.nos__parrafo{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-grow: 1;
+    align-self: center;
+    background-color: darkgray;
+}
+/* NOSOTROS */ /* Segunda Seccion */
+.historia{
+    display: flex;
+    margin-bottom: 50px;
+}
+.historia__art{
+    display: flex;
+    flex-direction: column;
+    text-align: center ;
+    width: 80%;
+    line-height: 1.5;
+}
+/* NOSOTROS */ /* Tercera Seccion */
+.camino{
+    display: flex;
+}
+.camino__nuestro{
+    display: flex;
+}
+.camino__grid{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 3fr 1fr 2fr 1fr 2fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-areas:"texto none texto-uno none texto-dos "
+                        "none  none texto-tres none texto-cuatro"
+                        "none  none texto-cinco none texto-seis";
+}
+.camino__nuestro{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+.texto{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin: 20px;
+}
+.texto-uno{
+    grid-column: 3/4 ;
+    grid-row: 1/2;
+    margin: 20px;
+}
+.texto-dos{
+    grid-column:5/6 ;
+    grid-row: 1/2;
+    margin: 20px;
+}
+.texto-tres{
+    grid-column:3/4 ;
+    grid-row: 2/3;
+    margin: 20px;
+}
+.texto-cuatro{
+    grid-column:5/6 ;
+    grid-row: 2/3;
+    margin: 20px;
+}
+.texto-cinco{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    margin: 20px;
+}
+.texto-seis{
+    grid-column:5/6 ;
+    grid-row:3/4 ;
+    margin: 20px;
+}
+/* NOSOTROS */ /* Cuarta Seccion */
+.video{
+    display: flex;
+    align-self: center;
+}
+/* PROYECTOS */ /* Primera seccion */
+.proyecto{
+    display: flex;
+    flex-grow: 1;
+    background-color: aqua;
+    margin-bottom: 50px;
+}
+.proyecto__portada{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    background-color: blueviolet;
+}
+.proyecto__parrafo{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-grow: 1;
+    align-self: center;
+    background-color: darkgray;
+}
+/* PROYECTOS */ /* Segunda seccion */
+.proyecto__imagenes{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.proyecto__art{
+    display: flex;
+    flex-direction: column;
+}
+.proyecto__imagen{
+    width: 600px;
+    cursor: pointer;
+}
+.proyecto__div{
+    display: flex;
+    flex-wrap: nowrap;
+}
+/* GALERIA */
+.imagenes__grid{
+    display: grid;
+    width: 100vw;
+    height: 100vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1;
+    grid-template-areas:" circulo cruz frente"
+                        " patio jardin frente"
+                        " patio cemento porton";
+}
+.circulo{
+    grid-area: circulo;
+    background-image: url('../recursos/circulos.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.cruz{
+    grid-area: cruz;
+    background-image: url('../recursos/cruz.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.frente{
+    grid-area: frente;
+    background-image: url('../recursos/frente.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.patio{
+    grid-area: patio;
+    background-image: url('../recursos/patio.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.jardin{
+    grid-area: jardin;
+    background-image: url('../recursos/jardin.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.porton{
+    grid-area: porton;
+    background-image: url('../recursos/porton.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.cemento{
+    grid-area: cemento;
+    background-image: url('../recursos/cemento.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+/* CONTACTO */
+.cont{
+    display: flex;
+    flex-grow: 3;
+    background-color: aqua;
+}
+.cont__portada{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-grow: 3;
+    background-color: blueviolet;
+}
+.cont__parrafo{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-grow: 1;
+    align-self: center;
+    background-color: darkgray;
+}
+.formulario{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    background-color: bisque;
+}
+
+.telefono{
+    color: black;
+}
+.gmail__info{
+    background-color: aqua;
+    width: 30px;
+}
+/* FOOTER */
+.redes{
+    width: 30px;
+}
+/* MEDIA CELULAR */
+@media (min-width: 320px) and (max-width: 575px) {
+/* HEADER */
+    header{
+        height: auto;
+    }
+    .header__nav {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header__lista{
+        flex-direction: column;
+        justify-content: center;
+        flex-grow: 0;
+        align-items: center;
+    }
+/* INDEX */ /* Primera seccion */
+/* INDEX */ /* segunda seccion */
+/* INDEX */ /* Tercera seccion */
+/* INDEX */ /* Cuarta seccion */
+/* INDEX */ /* Quinta seccion */
+/* NOSOTROS */ /* Primera seccion */
+/* NOSOTROS */ /* segunda seccion */
+/* NOSOTROS */ /* Tercera seccion */
+/* NOSOTROS */ /* Cuarta seccion */
+/* PROYECTOS */ /* Primera seccion */
+/* PROYECTOS */ /* Segunda seccion */
+/* GALERIA */ /* Primera seccion */
+    .imagenes__grid{
+        height: 300vw;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:"circulo" 
+                        "cruz"
+                        "jardin"
+                        "frente"
+                        "patio" 
+                        "cemento"
+                        "porton";
+    }
+    .circulo{
+        cursor: pointer;
+    }
+    .cruz{
+        cursor: pointer;
+    }
+    .frente{
+        cursor: pointer;
+    }
+    .patio{
+        cursor: pointer;
+    }
+    .jardin{
+        cursor: pointer;
+    }
+    .porton{
+        cursor: pointer;
+    }
+    .cemento{
+        cursor: pointer;
+    }
+/* CONTACTO */ /* Primera seccion */
+/* CONTACTO */ /* segunda seccion */
+/* CONTACTO */ /* Tercera seccion */
+/* FOOTER */
+
+}
+/* MEDIA TABLET */
+@media (min-width: 576px) and (max-width: 992px) {
+/* HEADER */
+/* INDEX */ /* Primera seccion */
+/* INDEX */ /* segunda seccion */
+/* INDEX */ /* Tercera seccion */
+/* INDEX */ /* Cuarta seccion */
+/* INDEX */ /* Quinta seccion */
+/* NOSOTROS */ /* Primera seccion */
+/* NOSOTROS */ /* segunda seccion */
+/* NOSOTROS */ /* Tercera seccion */
+/* NOSOTROS */ /* Cuarta seccion */
+/* PROYECTOS */ /* Primera seccion */
+/* PROYECTOS */ /* Segunda seccion */
+/* GALERIA */ /* Primera seccion */
+/* CONTACTO */ /* Primera seccion */
+/* CONTACTO */ /* segunda seccion */
+/* CONTACTO */ /* Tercera seccion */
+/* FOOTER */
+}
