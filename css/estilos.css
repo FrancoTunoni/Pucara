@@ -66,14 +66,18 @@ main {
     display: grid;
     grid-template-columns: 0.2fr 3fr 2fr 2fr 1fr ;
     grid-template-rows: 1fr 1fr 1fr ;
-    background-color: rgb(32, 255, 58);
+    background-color: rgb(176, 238, 183);
     margin-bottom: 50px;
 }
 .principio__portada{
     width: 640px;
     height: 725px;
+    transition: all 500ms ease;
     grid-column: 2/3 ;
     grid-row: 1/4;
+}
+.principio__portada:hover{
+    transform: scale(0.9);
 }
 .principio__parrafo{
     grid-column: 4/5 ;
@@ -200,14 +204,17 @@ main {
 .nos{
     display: flex;
     flex-grow: 3;
-    background-color: aqua;
+    background-color: rgb(176, 238, 183);
     margin-bottom: 50px;
 }
 .nos__portada{
     display: flex;
     flex-wrap: nowrap;
     flex-grow: 1;
-    background-color: blueviolet;
+    transition: all 500ms ease;
+}
+.nos__portada:hover{
+    transform: scale(0.9);
 }
 .nos__parrafo{
     display: flex;
@@ -320,6 +327,10 @@ main {
     height: 725px;
     grid-column: 2/3 ;
     grid-row: 1/4;
+    transition: all 500ms ease;
+}
+.proyecto__portada:hover{
+    transform: scale(0.9);
 }
 .proyecto__parrafo{
     grid-column: 4/5 ;
