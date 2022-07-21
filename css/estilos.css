@@ -467,6 +467,7 @@ main {
 .telefono{
     display: inline;
 
+
 }
 /* FOOTER */
 .footer__grid{
@@ -501,6 +502,9 @@ main {
     grid-column: 6/7 ;
     grid-row: 4/5;
     font-size: 16px;
+}
+.icono__f{
+    display: inline;
 }
 
 /* MEDIA CELULAR  -----------------------------------------------*/
