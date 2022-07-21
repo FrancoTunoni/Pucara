@@ -5,22 +5,21 @@
 body{
     font-family: 'Poppins', sans-serif;
     color: red;
-    /*background-image: url('../recursos/aa57e2988c9209991e904dba02523729.jpg');
-background-repeat: no-repeat;
-background-size: cover;*/
+    /*background-image: url('../recursos/original_O0000210.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;*/
 }
 h1 {
     font-family: 'Poppins', sans-serif;
-    color: red;
+    color: rgb(234, 152, 152);
 }
 h2 {
     font-family: 'Open Sans', sans-serif;
-    color: rgba(0, 11, 159, 0.821);
+    color: rgba(113, 118, 192, 0.821);
 }
 p  {
     font-family: 'Poppins', sans-serif;;
     color: rgba(0, 11, 159, 0.821);
-    background-color: aqua;
 }
 /* HEADER */
 header{
@@ -73,6 +72,7 @@ main {
     width: 640px;
     height: 725px;
     transition: all 500ms ease;
+    overflow: hidden;
     grid-column: 2/3 ;
     grid-row: 1/4;
 }
@@ -464,43 +464,9 @@ main {
     cursor: pointer;
 }
 /* CONTACTO */
-.cont__grid{
-    display: grid;
-    grid-template-columns: 0.2fr 3fr 2fr 2fr 1fr ;
-    grid-template-rows: 1fr 1fr 1fr ;
-    background-color: rgb(176, 238, 183);
-    margin-bottom: 50px;
-}
-.cont__portada{
-    width: 640px;
-    height: 725px;
-    grid-column: 2/3 ;
-    grid-row: 1/4;
-    transition: all 500ms ease;
-}
-.cont__portada:hover{
-    transform: scale(0.9);
-}
-.cont__parrafo{
-    grid-column: 4/5 ;
-    grid-row: 2/3;
-    justify-content: center;
-    flex-grow: 1;
-    font-size: 32px;
-    align-self: center;
-}
-.formulario{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-grow: 1;
-    background-color: bisque;
-}
 .telefono{
-    color: black;
-}
-.gmail__info{
-    background-color: aqua;
-    width: 30px;
+    display: inline;
+
 }
 /* FOOTER */
 .footer__grid{
@@ -604,6 +570,9 @@ main {
     }
 /* CONTACTO */ /* Primera seccion */
 /* CONTACTO */ /* segunda seccion */
+.ocultar{
+    display: none;
+}
 /* CONTACTO */ /* Tercera seccion */
 /* FOOTER */
 .footer__grid{
