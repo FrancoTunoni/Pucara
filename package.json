@@ -1,0 +1,25 @@
+{
+  "name": "coder",
+  "version": "1.0.0",
+  "description": "<h1>Pucara Arquitectura Moderna <h1>\r <p>Este es un sitio que muestra los proyectos de dos hermanos apasionados por la arquitectura moderna<p>\r <h2>Tecnologias usadas<h2>\r <ul>\r <li>Html5</li>\r <li>CSS3</li>\r <li>Bootstrap</li>\r <li>SASS</li>\r </ul>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilos.scss css/estilos.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrancoTunoni/Pucara.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrancoTunoni/Pucara/issues"
+  },
+  "homepage": "https://github.com/FrancoTunoni/Pucara#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
