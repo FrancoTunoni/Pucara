@@ -1,0 +1,29 @@
+.zoom {
+    transition: transform .2s;
+    overflow: hidden; 
+    &:hover {
+        transform: scale(1.2); 
+    }
+}
+.telefono {
+    display: inline; 
+}
+.contacto__tarjetas {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 0.5fr 1fr 0.5fr 1fr;
+    grid-template-rows: 1fr;
+    margin-bottom: 5px; 
+}
+.tajeta__uno {
+    grid-column: 2/3;
+    grid-row: 1/2; 
+}
+.tajeta__dos {
+    grid-column: 4/5;
+    grid-row: 1/2; 
+}
+.imagen__dos {
+    width: 300px;
+    height: 300px; 
+}

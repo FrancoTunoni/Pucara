@@ -1,0 +1,43 @@
+.footer{
+    &__grid {
+        display: grid;
+        background-image: url("../recursos/madera.jpg");
+        background-size: contain;
+        background-repeat: none;
+        width: 100vw;
+        height: 350px;
+        grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 0.7fr;
+        grid-template-rows: 0.2fr 0.5fr 0.2fr; 
+    }
+    &__logo {
+        grid-column: 2/3;
+        grid-row: 2/3; 
+    }
+    &__parrafo {
+        grid-column: 5/7;
+        grid-row: 2/3;
+        font-size: 16px;
+        text-align: end; 
+    }
+    &__igg {
+        grid-column: 2/4;
+        grid-row: 3/4;
+        width: 40px; 
+    }
+    &__link {
+        grid-column: 3/5;
+        grid-row: 3/4;
+        width: 40px; 
+    }
+    &__politicas {
+        grid-column: 5/7;
+        grid-row: 3/4;
+        text-align: end; 
+    }
+    &__derechos {
+        font-size: $footer-letrita; 
+    }
+    &__preguntas {
+        font-size: $footer-letrita; 
+    }
+}

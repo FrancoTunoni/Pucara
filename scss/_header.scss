@@ -1,0 +1,35 @@
+/* HEADER */
+header {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    width: 100vw; 
+    .header{
+        &__nav {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100vw;
+            justify-content: flex-end;
+            } 
+        &__logo {
+            display: inline; 
+        }
+        &__lista {
+            display: flex;
+            list-style: none;
+            padding: 0 16px;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            align-items: flex-end;
+            flex-grow: 5; 
+        }
+        &__item {
+            display: inline;
+            padding: 20px; 
+        }
+        &__item a {
+            color: black;
+            text-decoration: none;
+        }
+    }
+}

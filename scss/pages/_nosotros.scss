@@ -1,0 +1,93 @@
+/* NOSOTROS */     /* Primera Seccion */
+.nosotros__titu::before {
+    content: " ";
+    display: block;
+    width: 5px;
+    height: 10px;
+    position: absolute;
+    top: 340px;
+    left: 270px;
+    border-bottom: 3px solid grey; 
+    &:hover::before {
+        content: " ";
+        display: inline-block;
+        width: 226px;
+        height: 10px;
+        position: absolute;
+        top: 340px;
+        left: 270px;
+        border-bottom: 3px solid grey;
+        transition: all 2s; 
+    }
+}
+/* NOSOTROS */     /* Segunda Seccion */
+.historia {
+    display: flex;
+    margin-bottom: 50px; 
+    &__art {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 80%;
+        line-height: 1.5; 
+    }
+    &__titulo {
+        font-size: 32px;
+        margin-bottom: 30px; 
+    }
+    &__parrafo {
+        font-size: 16px;
+        width: 80%;
+        align-self: center;
+        line-height: 1.5; 
+    }
+}
+.escaleras {
+    width: 90%;
+    height: 500px; }
+/* NOSOTROS */   /* Tercera Seccion */
+.camino__nuestro {
+    font-size: 32px; }
+.camino__grid {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 2fr 0.2fr 2fr 0.2fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "texto none texto-uno none texto-dos "
+                        "none  none texto-tres none texto-cuatro"
+                        "none  none texto-cinco none texto-seis"; }
+.texto {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin: 20px; }
+.texto-uno {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    margin: 20px; }
+.texto-dos {
+    grid-column: 5/6;
+    grid-row: 1/2;
+    margin: 20px; }
+.texto-tres {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    margin: 20px; }
+.texto-cuatro {
+    grid-column: 5/6;
+    grid-row: 2/3;
+    margin: 20px; }
+.texto-cinco {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    margin: 20px; }
+.texto-seis {
+    grid-column: 5/6;
+    grid-row: 3/4;
+    margin: 20px; }
+.camino__anio {
+    font-size: 20px; }
+.camino__parrafo {
+    font-size: 16px; }
