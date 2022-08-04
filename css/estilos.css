@@ -1,5 +1,12 @@
 /* LETRAS */
 /* SIZE */
+/* SIZE LETRA */
+.background-centrado, .circulo, .cruz, .frente, .patio, .jardin, .porton, .cemento {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer; }
+
 .footer__grid {
   display: grid;
   background-image: url("../recursos/madera.jpg");
@@ -233,59 +240,31 @@ header {
 
 .circulo {
   grid-area: circulo;
-  background-image: url("../recursos/galeria10.jpeg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  cursor: pointer; }
+  background-image: url("../recursos/galeria10.jpeg"); }
 
 .cruz {
   grid-area: cruz;
-  background-image: url("../recursos/galeria11.jpeg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  cursor: pointer; }
+  background-image: url("../recursos/galeria11.jpeg"); }
 
 .frente {
   grid-area: frente;
-  background-image: url("../recursos/galeria12.jpeg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  cursor: pointer; }
+  background-image: url("../recursos/galeria12.jpeg"); }
 
 .patio {
   grid-area: patio;
-  background-image: url("../recursos/galeria8.jpeg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  cursor: pointer; }
+  background-image: url("../recursos/galeria8.jpeg"); }
 
 .jardin {
   grid-area: jardin;
-  background-image: url("../recursos/galeria9.jpeg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  cursor: pointer; }
+  background-image: url("../recursos/galeria9.jpeg"); }
 
 .porton {
   grid-area: porton;
-  background-image: url("../recursos/render5.jpeg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  cursor: pointer; }
+  background-image: url("../recursos/render5.jpeg"); }
 
 .cemento {
   grid-area: cemento;
-  background-image: url("../recursos/render6.jpeg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  cursor: pointer; }
+  background-image: url("../recursos/galeria8.jpeg"); }
 
 .zoom {
   transition: transform .2s;
