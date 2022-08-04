@@ -11,6 +11,7 @@ header {
         &__nav {
             flex-direction: column;
             justify-content: center; 
+            align-items: center;
         }
         &__lista {
             flex-direction: column;
@@ -25,38 +26,46 @@ header {
 /* INDEX */      /* Cuarta seccion */
 /* INDEX */      /* Quinta seccion */
 /* NOSOTROS */   /* Primera seccion */
-    .nosotros__titu::before {
-        display: none; }
+.nosotros__titu::before {
+    display: none; 
+}
+.img__nos{
+    display: none;
+}
 /* NOSOTROS */   /* segunda seccion */
-    .escaleras {
-        display: none; }
+.imag__nuestro{
+    margin-bottom: 50px;
+}
+.parrafo_historia{
+    font-size: 16px;
+}
 /* NOSOTROS */    /* Tercera seccion */
-    .camino__grid {
-        height: 150vh;
-        grid-template-columns: 1fr;
-        grid-template-rows: 7, 1fr;
-        grid-template-areas: "texto"
-                            "texto-uno"
-                            "texto-dos"
-                            "texto-tres"
-                            "texto-cuatro"
-                            "texto-cinco"
-                            "texto-seis"; }
-    .texto {
-        margin: 20px; }
-    .texto-uno {
-        margin: 20px; }
-    .texto-dos {
-        margin: 20px; }
-    .texto-tres {
-        margin: 20px; }
-    .texto-cuatro {
-        margin: 20px; }
-    .texto-cinco {
-        margin: 20px; }
-    .texto-seis {
-        margin: 20px; }
-/* NOSOTROS */    /* Cuarta seccion */
+.camino__grid {
+    height: 600vh;
+    grid-template-columns:1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "texto"
+                        "textouno"
+                        "textodos"
+                        "textotres"
+                        "textocuatro"
+                        "textocinco"
+                        "textoseis"; 
+}
+.texto {
+    margin: 20px; }
+.text-uno {
+    margin: 20px; }
+.textodos {
+    margin: 20px; }
+.textotres {
+    margin: 20px; }
+.textocuatro {
+    margin: 20px; }
+.textocinco {
+    margin: 20px; }
+.textoseis {
+    margin: 20px; }
 /* PROYECTOS */   /* Primera seccion */
     .imag__dest {
         display: none; }
@@ -64,53 +73,59 @@ header {
         display: none; }
 /* PROYECTOS */    /* Segunda seccion */
 /* GALERIA */      /* Primera seccion */
-    .imagenes__grid {
-        height: 300vw;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-areas: "circulo" 
-                            "cruz"
-                            "jardin"
-                            "frente"
-                            "patio" 
-                            "cemento"
-                            "porton"; }
-    .circulo {
-        cursor: pointer; }
-    .cruz {
-        cursor: pointer; }
-    .frente {
-        cursor: pointer; }
-    .patio {
-        cursor: pointer; }
-    .jardin {
-        cursor: pointer; }
-    .porton {
-        cursor: pointer; }
-    .cemento {
-        cursor: pointer; }
+.imagenes__grid {
+    height: 300vw;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "circulo" 
+                        "cruz"
+                        "jardin"
+                        "frente"
+                        "patio" 
+                        "cemento"
+                        "porton"; 
+    }
+.circulo {
+    cursor: pointer; }
+.cruz {
+    cursor: pointer; }
+.frente {
+    cursor: pointer; }
+.patio {
+    cursor: pointer; }
+.jardin {
+    cursor: pointer; }
+.porton {
+    cursor: pointer; }
+.cemento {
+    cursor: pointer; }
 /* CONTACTO */     /* Primera seccion */
-/* CONTACTO */     /* segunda seccion */
-    .contacto__tarjetas {
-        height: 150vh;
-        grid-template-columns: 1fr;
-        grid-template-rows: 0.2fr 0.2fr;
-        grid-template-areas: "tarjeta__uno"
-                                "tarjeta__dos";
-        margin-bottom: 5px; }
-    .tajeta__uno {
-        grid-column: 1/2;
-        grid-row: 1/2;
-        align-self: center; }
-    .tajeta__dos {
-        grid-column: 1/2;
-        grid-row: 2/3; }
-    .imagen__dos {
-        width: 200px;
-        height: 200px; }
-    .imag__cont {
-        display: none; }
-/* CONTACTO */    /* Tercera seccion */
+.imag_contacto{
+    display: none;
+}
+/* CONTACTO */     /* Segunda seccion */
+.imag__cont {
+    display: none; 
+}
+/* CONTACTO */     /* Tercera seccion */
+
+.contacto__tarjetas {
+    height: 130vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 0.2fr;
+    grid-template-areas: "tarjeta__uno"
+                        "tarjeta__dos";
+    margin-bottom: 5px; 
+}
+.tajeta__uno {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-self: center; 
+}
+.tajeta__dos {
+    grid-column: 1/2;
+    grid-row: 2/3; 
+}
 /* FOOTER */
     .footer{
         &__grid {

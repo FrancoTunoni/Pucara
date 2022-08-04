@@ -150,7 +150,7 @@ main {
     font-size: 16px;
     grid-column: 4/5;
     grid-row: 2/3; }
-/* NOSOTROS */     /* Primera Seccion */
+/* NOSOTROS */     /* Primera Seccion 
 .nosotros__titu::before {
     content: " ";
     display: block;
@@ -170,7 +170,8 @@ main {
     left: 270px;
     border-bottom: 3px solid grey;
     transition: all 2s; }
-/* NOSOTROS */     /* Segunda Seccion */
+*/
+/* NOSOTROS */     /* Segunda Seccion 
 .historia {
     display: flex;
     margin-bottom: 50px; }
@@ -191,7 +192,8 @@ main {
 .escaleras {
     width: 90%;
     height: 500px; }
-/* NOSOTROS */   /* Tercera Seccion */
+*/
+/* NOSOTROS */   /* Tercera Seccion 
 .camino__nuestro {
     font-size: 32px; }
 .camino__grid {
@@ -237,8 +239,8 @@ main {
     font-size: 20px; }
 .camino__parrafo {
     font-size: 16px; }
-/* NOSOTROS */      /* Cuarta Seccion */
-/* PROYECTOS */      /* Primera seccion */
+*/
+/* PROYECTOS */      /* Primera seccion 
 .titulo__proyecto::before {
     content: " ";
     display: block;
@@ -258,7 +260,8 @@ main {
     right: 247px;
     border-bottom: 3px solid grey;
     transition: all 2s; }
-/* PROYECTOS */    /* Segunda seccion */
+*/
+/* PROYECTOS */    /* Segunda seccion 
 .proyecto__imagenes {
     display: flex;
     justify-content: space-around;
@@ -278,7 +281,8 @@ main {
     text-align: start; }
 .proyecto__numero {
     justify-content: flex-end; }
-/* GALERIA */
+*/
+/* GALERIA 
 .imagenes__grid {
     display: grid;
     column-gap: 5px;
@@ -340,7 +344,8 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer; }
-/* CONTACTO */
+*/
+/* CONTACTO 
 .zoom {
     transition: transform .2s;
     overflow: hidden; }
@@ -363,3 +368,4 @@ main {
 .imagen__dos {
     width: 300px;
     height: 300px; }
+*/
