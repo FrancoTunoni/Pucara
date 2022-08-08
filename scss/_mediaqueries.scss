@@ -201,9 +201,15 @@ header {
 /* INDEX */     /* Cuarta seccion */
 /* INDEX */     /* Quinta seccion */
 /* NOSOTROS */   /* Primera seccion */
+.img__nos{
+    display: none;
+}
     .nosotros__titu::before {
         display: none; }
 /* NOSOTROS */   /* segunda seccion */
+.imag__nuestro{
+    margin-bottom: 50px;
+}
 /* NOSOTROS */   /* Tercera seccion */
 /* NOSOTROS */   /* Cuarta seccion */
 /* PROYECTOS */   /* Primera seccion */

@@ -243,31 +243,31 @@ header {
 
 .circulo {
   grid-area: circulo;
-  background-image: url("../recursos/galeria10.jpeg"); }
+  background-image: url("../recursos/galeria/galeria11.jpeg"); }
 
 .cruz {
   grid-area: cruz;
-  background-image: url("../recursos/galeria11.jpeg"); }
+  background-image: url("../recursos/galeria/galeria10.jpeg"); }
 
 .frente {
   grid-area: frente;
-  background-image: url("../recursos/galeria12.jpeg"); }
+  background-image: url("../recursos/galeria/galeria12.jpeg"); }
 
 .patio {
   grid-area: patio;
-  background-image: url("../recursos/galeria8.jpeg"); }
+  background-image: url("../recursos/galeria/galeria8.jpeg"); }
 
 .jardin {
   grid-area: jardin;
-  background-image: url("../recursos/galeria9.jpeg"); }
+  background-image: url("../recursos/galeria/galeria7.jpeg"); }
 
 .porton {
   grid-area: porton;
-  background-image: url("../recursos/render5.jpeg"); }
+  background-image: url("../recursos/galeria/galeria3.jpeg"); }
 
 .cemento {
   grid-area: cemento;
-  background-image: url("../recursos/galeria8.jpeg"); }
+  background-image: url("../recursos/galeria/galeria8.jpeg"); }
 
 .zoom {
   transition: transform .2s;
@@ -472,10 +472,14 @@ header {
   /* Quinta seccion */
   /* NOSOTROS */
   /* Primera seccion */
+  .img__nos {
+    display: none; }
   .nosotros__titu::before {
     display: none; }
   /* NOSOTROS */
   /* segunda seccion */
+  .imag__nuestro {
+    margin-bottom: 50px; }
   /* NOSOTROS */
   /* Tercera seccion */
   /* NOSOTROS */
@@ -623,11 +627,10 @@ main {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  background-color: lightpink;
   margin-bottom: 50px; }
 
 .galeria__proyectos {
-  text-align: center;
+  justify-content: center;
   font-size: 32px;
   margin-bottom: 30px; }
 
@@ -648,12 +651,12 @@ main {
   flex-direction: column; }
 
 .galeria__imagen {
-  width: 600px;
+  width: 500px;
   cursor: pointer; }
 
 .galeria__div {
   display: flex;
-  flex-wrap: nowrap; }
+  justify-content: space-between; }
 
 /* INDEX */
 /* Cuarta seccion */
@@ -661,12 +664,13 @@ main {
   display: grid;
   width: 100vw;
   height: 100vh;
-  grid-template-columns: 0.2fr 0.5fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.2fr; }
+  grid-template-columns: 0.2fr 0.5fr 0.2fr 1fr 0.2fr 1fr 0.2fr;
+  grid-template-rows: 0.1fr 0.1fr 1fr 0.2fr 1fr; }
 
 .destacada {
-  background-image: url("recursos/solucion.png");
-  background-size: cover;
+  background-image: url("../recursos/home/tierra-mallorca-NpTbVOkkom8-unsplash.jpg");
+  width: 800px;
+  height: 95vh;
   grid-column: 2/3;
   grid-row: 1/6; }
 
@@ -694,38 +698,37 @@ main {
   grid-row: 5/6; }
 
 .soluciones__subtitulo {
+  text-align: end;
   font-size: 20px; }
 
 .soluciones__datos {
+  text-align: end;
   font-size: 16px; }
 
 /* INDEX */
 /* Quinta seccion */
-.sketchfab-embed-wrapper {
-  display: flex;
-  justify-content: center;
-  width: 100vw;
-  margin-bottom: 50px; }
-
-/* INDEX */
-/* Sexta seccion */
 .contacto__grid {
   width: 100%;
   height: 400px;
   display: grid;
+  margin-bottom: 50px;
   grid-template-columns: 1fr 3fr 2fr 1.4fr;
   grid-template-rows: 1fr 1fr 1fr;
-  background-image: url("../recursos/82eab0e408cfedbeeacebda6cd8392f0.jpg"); }
+  background-image: url("../recursos/home/wesley-tingey-KCvF6uN0KAA-unsplash.jpg");
+  background-size: cover; }
 
 .contacto__titulo {
   align-self: center;
+  justify-self: center;
+  color: #1a356b;
   font-size: 32px;
   grid-column: 2/3;
   grid-row: 2/3; }
 
 .contacto__interaccion {
   align-self: center;
-  font-size: 16px;
+  color: #1a356b;
+  font-size: 22px;
   grid-column: 4/5;
   grid-row: 2/3; }
 
