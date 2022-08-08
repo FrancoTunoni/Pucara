@@ -21,10 +21,53 @@ header {
         }
 }
 /* INDEX */      /* Primera seccion */
+.imagendest__index{
+    display: none;
+}
+.titulo__index{
+    margin-bottom: 3px;
+}
 /* INDEX */      /* segunda seccion */
+.imag_nos{
+    margin-bottom: 30px;
+}
 /* INDEX */      /* Tercera seccion */
 /* INDEX */      /* Cuarta seccion */
+.imag_solucion{
+    margin-bottom: 10px;
+}
+.soluciones__subtitulo {
+    display: flex;
+    align-items: flex-start;
+    font-family: $font-weight-bold;
+    font-size: 16px; 
+}
+.soluciones__datos {
+    display: flex;
+    align-items: flex-start;
+    font-size: 16px; 
+}
 /* INDEX */      /* Quinta seccion */
+.contacto__grid {
+    width: 100%;
+    margin-bottom: 50px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+    background-image: url("../recursos/home/wesley-tingey-KCvF6uN0KAA-unsplash.jpg"); 
+    background-size: cover;
+}
+.contacto__titulo {
+    align-self: center;
+    justify-self: center;
+    color: #1a356b;
+    font-size: 32px;
+}
+.contacto__interaccion {
+    align-self: center;
+    color: #1a356b;
+    font-size: 22px;
+}
 /* NOSOTROS */   /* Primera seccion */
 .nosotros__titu::before {
     display: none; 
