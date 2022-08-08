@@ -1,4 +1,7 @@
 /* NOSOTROS */     /* Primera Seccion */
+.seccion__nos{
+    margin-bottom: 50px;
+}
 .nosotros__titu::before {
     content: " ";
     display: block;
@@ -21,6 +24,9 @@
     }
 }
 /* NOSOTROS */     /* Segunda Seccion */
+.seccion__nosdos{
+    margin-bottom: 50px;
+}
 .historia {
     display: flex;
     margin-bottom: 50px; 

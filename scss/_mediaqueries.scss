@@ -21,11 +21,18 @@ header {
         }
 }
 /* INDEX */      /* Primera seccion */
+.seccion__uno{
+    display: flex;
+}
+.articulo__uno{
+    flex-direction: column-reverse;
+}
 .imagendest__index{
-    display: none;
+    margin-bottom: 5px;
 }
 .titulo__index{
-    margin-bottom: 3px;
+    font-size: 32px;
+    margin-bottom: 5px;
 }
 /* INDEX */      /* segunda seccion */
 .imag_nos{
@@ -34,6 +41,7 @@ header {
 /* INDEX */      /* Tercera seccion */
 /* INDEX */      /* Cuarta seccion */
 .imag_solucion{
+    display: none;
     margin-bottom: 10px;
 }
 .soluciones__subtitulo {
@@ -48,23 +56,14 @@ header {
     font-size: 16px; 
 }
 /* INDEX */      /* Quinta seccion */
-.contacto__grid {
-    width: 100%;
-    margin-bottom: 50px;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    
-    background-image: url("../recursos/home/wesley-tingey-KCvF6uN0KAA-unsplash.jpg"); 
-    background-size: cover;
+.seccion_cinco{
+    margin-bottom: 10px;
 }
 .contacto__titulo {
-    align-self: center;
-    justify-self: center;
     color: #1a356b;
     font-size: 32px;
 }
 .contacto__interaccion {
-    align-self: center;
     color: #1a356b;
     font-size: 22px;
 }
@@ -143,17 +142,22 @@ header {
 .cemento {
     cursor: pointer; }
 /* CONTACTO */     /* Primera seccion */
-.imag_contacto{
-    display: none;
+.seccion_contacto{
+    display: flex;
+}
+.arti__uno{
+    flex-direction: column-reverse;
+}
+.titulo__contacto{
+    margin-bottom: 10px;
 }
 /* CONTACTO */     /* Segunda seccion */
 .imag__cont {
     display: none; 
 }
 /* CONTACTO */     /* Tercera seccion */
-
 .contacto__tarjetas {
-    height: 130vh;
+    height: 160vh;
     grid-template-columns: 1fr;
     grid-template-rows: 0.2fr 0.2fr;
     grid-template-areas: "tarjeta__uno"
@@ -239,10 +243,20 @@ header {
         }
     }
 /* INDEX */     /* Primera seccion */
+.seccion__uno{
+    display: flex;
+    flex-direction: row;
+}
 /* INDEX */     /* segunda seccion */
+.imag_nos{
+    margin-bottom: 30px;
+}
 /* INDEX */     /* Tercera seccion */
 /* INDEX */     /* Cuarta seccion */
 /* INDEX */     /* Quinta seccion */
+.seccion_cinco{
+    margin-bottom: 10px;
+}
 /* NOSOTROS */   /* Primera seccion */
 .img__nos{
     display: none;

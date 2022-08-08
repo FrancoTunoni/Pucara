@@ -86,29 +86,24 @@ main {
     font-size: 16px; 
 }
 /* INDEX */      /* Quinta seccion */
-.contacto__grid {
-    width: 100%;
-    height: 400px;
-    display: grid;
-    margin-bottom: 50px;
-    grid-template-columns: 1fr 3fr 2fr 1.4fr;
-    grid-template-rows: 1fr 1fr 1fr;
+.seccion_cinco {
     background-image: url("../recursos/home/wesley-tingey-KCvF6uN0KAA-unsplash.jpg"); 
     background-size: cover;
 }
 .contacto__titulo {
-    align-self: center;
-    justify-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #1a356b;
     font-size: 32px;
-    grid-column: 2/3;
-    grid-row: 2/3; }
+}
 .contacto__interaccion {
-    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #1a356b;
-    font-size: 22px;
-    grid-column: 4/5;
-    grid-row: 2/3; }
+    font-size: 25px;
+}
 /* NOSOTROS */     /* Primera Seccion 
 .nosotros__titu::before {
     content: " ";
