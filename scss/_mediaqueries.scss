@@ -16,8 +16,7 @@ header {
         &__lista {
             flex-direction: column;
             justify-content: center;
-            flex-grow: 0;
-            align-items: center; 
+            align-self: center;
         }
 }
 /* INDEX */      /* Primera seccion */
@@ -90,10 +89,8 @@ header {
     flex-direction: column;
 }
 .div__dos{
-    display: flex;
-    flex-direction: row;
+    display:none;
 }
-
 /* PROYECTOS */   /* Primera seccion */
     .imag__dest {
         display: none; }
@@ -138,26 +135,33 @@ header {
     margin-bottom: 10px;
 }
 /* CONTACTO */     /* Segunda seccion */
+.section_dos{
+    margin-bottom: 1px;
+}
 .imag__cont {
     display: none; 
 }
 /* CONTACTO */     /* Tercera seccion */
-.contacto__tarjetas {
-    height: 160vh;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.2fr 0.2fr;
-    grid-template-areas: "tarjeta__uno"
-                        "tarjeta__dos";
-    margin-bottom: 5px; 
+.section_tres{
+    display: flex;
+    flex-direction:column;
 }
-.tajeta__uno {
-    grid-column: 1/2;
-    grid-row: 1/2;
-    align-self: center; 
+.enviar{
+    margin-bottom: 2px;
 }
-.tajeta__dos {
-    grid-column: 1/2;
-    grid-row: 2/3; 
+.tajeta__uno{
+    width: 250px;
+    margin-bottom: 30px;
+}
+.tajeta__dos{
+    width: 250px;
+    margin-bottom: 10px;
+}
+.iconito{
+    justify-content: center;
+}
+.telefono{
+    display: none;
 }
 /* FOOTER */
     .footer{
@@ -250,12 +254,15 @@ header {
 .seccion__nosdos{
     margin-bottom: 30px;
 }
+.parrafo_historia{
+    margin-bottom: 1px;
+}
 .imag__nuestro{
     margin-bottom: 30px;
 }
 /* NOSOTROS */   /* Tercera seccion */
 .camino__nuestro{
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .camino__anio{
     text-align: center;
@@ -324,10 +331,33 @@ header {
         cursor: pointer; }
 /* CONTACTO */    /* Primera seccion */
 /* CONTACTO */    /* segunda seccion */
-    .imag__cont {
+.imag__cont {
     display: none; 
-    }
+}
+.section_dos{
+    margin-bottom: 2px;
+}
 /* CONTACTO */    /* Tercera seccion */
+.contacto__tarjetas{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.tajeta__uno{
+    width: 200px;
+    margin-bottom: 10px;
+}
+.tajeta__dos{
+    width: 200px;
+    margin-bottom: 10px;
+}
+.iconito{
+    justify-content: center;
+}
+.telefono{
+    display: none;
+}
 /* FOOTER */
 .footer{
     &__grid {

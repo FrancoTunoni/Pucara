@@ -127,61 +127,6 @@ header {
 
 /* NOSOTROS */
 /* Tercera Seccion */
-.camino__nuestro {
-  font-size: 32px; }
-
-.camino__grid {
-  display: grid;
-  width: 100vw;
-  height: 100vh;
-  grid-template-columns: 2fr 0.2fr 2fr 0.2fr 2fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "texto none textouno none textodos " "none  none textotres none textocuatro" "none  none textocinco none textoseis"; }
-
-.texto {
-  grid-area: texto;
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  margin: 20px; }
-
-.textouno {
-  grid-area: textouno;
-  grid-column: 3/4;
-  grid-row: 1/2;
-  margin: 20px; }
-
-.textodos {
-  grid-area: textodos;
-  grid-column: 5/6;
-  grid-row: 1/2;
-  margin: 20px; }
-
-.textotres {
-  grid-area: textotres;
-  grid-column: 3/4;
-  grid-row: 2/3;
-  margin: 20px; }
-
-.textocuatro {
-  grid-area: textocuatro;
-  grid-column: 5/6;
-  grid-row: 2/3;
-  margin: 20px; }
-
-.textocinco {
-  grid-area: textocinco;
-  grid-column: 3/4;
-  grid-row: 3/4;
-  margin: 20px; }
-
-.textoseis {
-  grid-area: textoseis;
-  grid-column: 5/6;
-  grid-row: 3/4;
-  margin: 20px; }
-
 .camino__anio {
   font-size: 20px; }
 
@@ -289,19 +234,34 @@ header {
   margin-bottom: 50px; }
 
 .contacto__tarjetas {
-  display: grid;
-  height: 60vh;
-  grid-template-columns: 1fr 0.5fr 1fr 0.5fr 1fr;
-  grid-template-rows: 0.3fr;
-  margin-bottom: 5px; }
+  display: flex;
+  justify-content: space-around; }
 
 .tajeta__uno {
-  grid-column: 2/3;
-  grid-row: 1/2; }
+  width: 350px; }
 
 .tajeta__dos {
-  grid-column: 4/5;
-  grid-row: 1/2; }
+  width: 350px; }
+
+/*
+.contacto__tarjetas {
+    display: grid;
+    height: 60vh;
+    grid-template-columns: 1fr 0.5fr 1fr 0.5fr 1fr;
+    grid-template-rows: 0.3fr;
+    margin-bottom: 5px; 
+}
+.tajeta__uno {
+    grid-column: 2/3;
+    grid-row: 1/2; 
+}
+.tajeta__dos {
+    grid-column: 4/5;
+    grid-row: 1/2; 
+}*/
+/* CONTACTO SECCION TRES */
+.section_tres {
+  margin-bottom: 50px; }
 
 /* MEDIA CELULAR  ---------------------------------------------------------------------------*/
 @media (min-width: 320px) and (max-width: 575px) {
@@ -318,8 +278,7 @@ header {
   .header__lista {
     flex-direction: column;
     justify-content: center;
-    flex-grow: 0;
-    align-items: center; }
+    align-self: center; }
   /* INDEX */
   /* Primera seccion */
   .seccion__uno {
@@ -381,8 +340,7 @@ header {
     display: flex;
     flex-direction: column; }
   .div__dos {
-    display: flex;
-    flex-direction: row; }
+    display: none; }
   /* PROYECTOS */
   /* Primera seccion */
   .imag__dest {
@@ -422,23 +380,27 @@ header {
     margin-bottom: 10px; }
   /* CONTACTO */
   /* Segunda seccion */
+  .section_dos {
+    margin-bottom: 1px; }
   .imag__cont {
     display: none; }
   /* CONTACTO */
   /* Tercera seccion */
-  .contacto__tarjetas {
-    height: 160vh;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.2fr 0.2fr;
-    grid-template-areas: "tarjeta__uno" "tarjeta__dos";
-    margin-bottom: 5px; }
+  .section_tres {
+    display: flex;
+    flex-direction: column; }
+  .enviar {
+    margin-bottom: 2px; }
   .tajeta__uno {
-    grid-column: 1/2;
-    grid-row: 1/2;
-    align-self: center; }
+    width: 250px;
+    margin-bottom: 30px; }
   .tajeta__dos {
-    grid-column: 1/2;
-    grid-row: 2/3; }
+    width: 250px;
+    margin-bottom: 10px; }
+  .iconito {
+    justify-content: center; }
+  .telefono {
+    display: none; }
   /* FOOTER */
   .footer__grid {
     height: 275px;
@@ -515,12 +477,14 @@ header {
   /* segunda seccion */
   .seccion__nosdos {
     margin-bottom: 30px; }
+  .parrafo_historia {
+    margin-bottom: 1px; }
   .imag__nuestro {
     margin-bottom: 30px; }
   /* NOSOTROS */
   /* Tercera seccion */
   .camino__nuestro {
-    margin-bottom: 30px; }
+    margin-bottom: 50px; }
   .camino__anio {
     text-align: center; }
   .camino__parrafo {
@@ -581,8 +545,25 @@ header {
   /* segunda seccion */
   .imag__cont {
     display: none; }
+  .section_dos {
+    margin-bottom: 2px; }
   /* CONTACTO */
   /* Tercera seccion */
+  .contacto__tarjetas {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap; }
+  .tajeta__uno {
+    width: 200px;
+    margin-bottom: 10px; }
+  .tajeta__dos {
+    width: 200px;
+    margin-bottom: 10px; }
+  .iconito {
+    justify-content: center; }
+  .telefono {
+    display: none; }
   /* FOOTER */
   .footer__grid {
     height: 225px;

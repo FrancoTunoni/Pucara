@@ -12,6 +12,17 @@
 .section_dos{
     margin-bottom: 50px;
 }
+.contacto__tarjetas{
+    display: flex;
+    justify-content: space-around;
+}
+.tajeta__uno{
+    width: 350px;
+}
+.tajeta__dos{
+    width: 350px;
+}
+/*
 .contacto__tarjetas {
     display: grid;
     height: 60vh;
@@ -26,4 +37,8 @@
 .tajeta__dos {
     grid-column: 4/5;
     grid-row: 1/2; 
+}*/
+/* CONTACTO SECCION TRES */
+.section_tres{
+    margin-bottom: 50px;
 }

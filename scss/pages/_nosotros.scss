@@ -49,54 +49,7 @@
     }
 }
 /* NOSOTROS */   /* Tercera Seccion */
-.camino__nuestro {
-    font-size: 32px; }
-.camino__grid {
-    display: grid;
-    width: 100vw;
-    height: 100vh;
-    grid-template-columns: 2fr 0.2fr 2fr 0.2fr 2fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "texto none textouno none textodos "
-                        "none  none textotres none textocuatro"
-                        "none  none textocinco none textoseis"; }
-.texto {
-    grid-area: texto;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    margin: 20px; }
-.textouno {
-    grid-area: textouno;
-    grid-column: 3/4;
-    grid-row: 1/2;
-    margin: 20px; }
-.textodos {
-    grid-area: textodos;
-    grid-column: 5/6;
-    grid-row: 1/2;
-    margin: 20px; }
-.textotres {
-    grid-area: textotres;
-    grid-column: 3/4;
-    grid-row: 2/3;
-    margin: 20px; }
-.textocuatro {
-    grid-area: textocuatro;
-    grid-column: 5/6;
-    grid-row: 2/3;
-    margin: 20px; }
-.textocinco {
-    grid-area: textocinco;
-    grid-column: 3/4;
-    grid-row: 3/4;
-    margin: 20px; }
-.textoseis {
-    grid-area: textoseis;
-    grid-column: 5/6;
-    grid-row: 3/4;
-    margin: 20px; }
+
 .camino__anio {
     font-size: 20px; }
 .camino__parrafo {
