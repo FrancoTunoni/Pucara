@@ -223,7 +223,6 @@ header {
   margin-bottom: 20px; }
 
 .proyecto__imagen {
-  width: 600px;
   cursor: pointer; }
 
 .proyecto__div {
@@ -376,25 +375,14 @@ header {
     font-size: 16px; }
   /* NOSOTROS */
   /* Tercera seccion */
-  .camino__grid {
-    height: 600vh;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: "texto" "textouno" "textodos" "textotres" "textocuatro" "textocinco" "textoseis"; }
-  .texto {
-    margin: 20px; }
-  .text-uno {
-    margin: 20px; }
-  .textodos {
-    margin: 20px; }
-  .textotres {
-    margin: 20px; }
-  .textocuatro {
-    margin: 20px; }
-  .textocinco {
-    margin: 20px; }
-  .textoseis {
-    margin: 20px; }
+  .seccion__nostres {
+    display: flex; }
+  .div__uno {
+    display: flex;
+    flex-direction: column; }
+  .div__dos {
+    display: flex;
+    flex-direction: row; }
   /* PROYECTOS */
   /* Primera seccion */
   .imag__dest {
@@ -521,28 +509,52 @@ header {
     margin-bottom: 10px; }
   /* NOSOTROS */
   /* Primera seccion */
-  .img__nos {
-    display: none; }
   .nosotros__titu::before {
     display: none; }
   /* NOSOTROS */
   /* segunda seccion */
+  .seccion__nosdos {
+    margin-bottom: 30px; }
   .imag__nuestro {
-    margin-bottom: 50px; }
+    margin-bottom: 30px; }
   /* NOSOTROS */
   /* Tercera seccion */
+  .camino__nuestro {
+    margin-bottom: 30px; }
+  .camino__anio {
+    text-align: center; }
+  .camino__parrafo {
+    text-align: center; }
   /* NOSOTROS */
   /* Cuarta seccion */
   /* PROYECTOS */
   /* Primera seccion */
+  .imag__dest {
+    display: none; }
   .titulo__proyecto::before {
     display: none; }
   /* PROYECTOS */
   /* Segunda seccion */
-  .imag__dest {
-    flex-direction: column; }
   .titulo__proyecto {
     text-align: center; }
+  .proyecto__imagenes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+  .proyecto__art {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px; }
+  .proyecto__imagen {
+    cursor: pointer; }
+  .proyecto__div {
+    display: flex;
+    justify-content: space-between; }
+  .proyecto__nombre {
+    display: flex;
+    text-align: start; }
+  .proyecto__numero {
+    justify-content: flex-end; }
   /* GALERIA */
   /* Primera seccion */
   .imagenes__grid {
@@ -639,8 +651,14 @@ main {
 
 /* INDEX */
 /* Primera seccion */
+.seccion__uno {
+  margin-bottom: 50px; }
+
 /* INDEX */
 /* Segunda seccion */
+.seccion__dos {
+  margin-bottom: 50px; }
+
 /* INDEX */
 /* Tercera seccion */
 .galeria {
