@@ -12,36 +12,36 @@
     margin-bottom: 5px; }
 .circulo {
     grid-area: circulo;
-    background-image: url("../recursos/galeria/galeria11.jpeg");
+    background-image: url("../recursos/galeria11.jpeg");
     @extend .background-centrado
 }
 .cruz {
     grid-area: cruz;
-    background-image: url("../recursos/galeria/galeria10.jpeg");
+    background-image: url("../../recursos/galeria10.jpeg");
     @extend .background-centrado
 }
 .frente {
     grid-area: frente;
-    background-image: url("../recursos/galeria/galeria12.jpeg");
+    background-image: url("../../recursos/galeria12.jpeg");
     @extend .background-centrado 
 }
 .patio {
     grid-area: patio;
-    background-image: url("../recursos/galeria/galeria8.jpeg");
+    background-image: url("../../recursos/galeria8.jpeg");
     @extend .background-centrado
 }
 .jardin {
     grid-area: jardin;
-    background-image: url("../recursos/galeria/galeria7.jpeg");
+    background-image: url("../../recursos/galeria7.jpeg");
     @extend .background-centrado
 }
 .porton {
     grid-area: porton;
-    background-image: url("../recursos/galeria/galeria3.jpeg");
+    background-image: url("../../recursos/galeria3.jpeg");
     @extend .background-centrado
 }
 .cemento {
     grid-area: cemento;
-    background-image: url("../recursos/galeria/galeria8.jpeg");
+    background-image: url("../../recursos/galeria8.jpeg");
     @extend .background-centrado
 }
