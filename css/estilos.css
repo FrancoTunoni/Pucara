@@ -6,6 +6,9 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  object-fit: cover;
+  position: relative;
+  overflow: hidden;
   cursor: pointer; }
 
 .footer__grid {
@@ -135,26 +138,6 @@ header {
 
 /* PROYECTOS */
 /* Primera seccion */
-.titulo__proyecto::before {
-  content: " ";
-  display: block;
-  width: 5px;
-  height: 10px;
-  position: absolute;
-  top: 367px;
-  right: 245px;
-  border-bottom: 3px solid grey; }
-  .titulo__proyecto::before:hover::before {
-    content: " ";
-    display: inline-block;
-    width: 240px;
-    height: 10px;
-    position: absolute;
-    top: 367px;
-    right: 247px;
-    border-bottom: 3px solid grey;
-    transition: all 2s; }
-
 /* PROYECTOS */
 /* Segunda seccion */
 .proyecto__imagenes {
@@ -194,31 +177,157 @@ header {
 
 .circulo {
   grid-area: circulo;
-  background-image: url("../recursos/galeria/galeria11.jpeg"); }
+  background-image: url("../recursos/galeria11.jpeg"); }
+
+.circulo::before {
+  content: url("../recursos/loupe_FILL0_wght400_GRAD0_opsz48.svg");
+  font-size: 1.5rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(250, 235, 215, 0.436);
+  transform: translate(100%);
+  transition: transform .4s;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.circulo:hover::before {
+  transform: translate(0); }
 
 .cruz {
   grid-area: cruz;
-  background-image: url("../recursos/galeria/galeria10.jpeg"); }
+  background-image: url("../recursos/galeria10.jpeg"); }
+
+.cruz::before {
+  content: url("../recursos/loupe_FILL0_wght400_GRAD0_opsz48.svg");
+  font-size: 1.5rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(250, 235, 215, 0.436);
+  transform: translate(-100%);
+  transition: transform .4s;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.cruz:hover::before {
+  transform: translate(0); }
 
 .frente {
   grid-area: frente;
-  background-image: url("../recursos/galeria/galeria12.jpeg"); }
+  background-image: url("../recursos/galeria12.jpeg"); }
+
+.frente::before {
+  content: url("../recursos/loupe_FILL0_wght400_GRAD0_opsz48.svg");
+  font-size: 1.5rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(250, 235, 215, 0.436);
+  transform: translate(-100%);
+  transition: transform .4s;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.frente:hover::before {
+  transform: translate(0); }
 
 .patio {
   grid-area: patio;
-  background-image: url("../recursos/galeria/galeria8.jpeg"); }
+  background-image: url("../recursos/galeria11.jpeg"); }
+
+.patio::before {
+  content: url("../recursos/loupe_FILL0_wght400_GRAD0_opsz48.svg");
+  font-size: 1.5rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(250, 235, 215, 0.436);
+  transform: translate(100%);
+  transition: transform .4s;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.patio:hover::before {
+  transform: translate(0); }
 
 .jardin {
   grid-area: jardin;
-  background-image: url("../recursos/galeria/galeria7.jpeg"); }
+  background-image: url("../recursos/galeria7.jpeg"); }
+
+.jardin::before {
+  content: url("../recursos/loupe_FILL0_wght400_GRAD0_opsz48.svg");
+  font-size: 1.5rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(250, 235, 215, 0.436);
+  transform: translate(100%);
+  transition: transform .4s;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.jardin:hover::before {
+  transform: translate(0); }
 
 .porton {
   grid-area: porton;
-  background-image: url("../recursos/galeria/galeria3.jpeg"); }
+  background-image: url("../recursos/galeria3.jpeg"); }
+
+.porton::before {
+  content: url("../recursos/loupe_FILL0_wght400_GRAD0_opsz48.svg");
+  font-size: 1.5rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(250, 235, 215, 0.436);
+  transform: translate(-100%);
+  transition: transform .4s;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.porton:hover::before {
+  transform: translate(0); }
 
 .cemento {
   grid-area: cemento;
-  background-image: url("../recursos/galeria/galeria8.jpeg"); }
+  background-image: url("../recursos/galeria8.jpeg"); }
+
+.cemento::before {
+  content: url("../recursos/loupe_FILL0_wght400_GRAD0_opsz48.svg");
+  font-size: 1.5rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(250, 235, 215, 0.436);
+  transform: translate(-100%);
+  transition: transform .4s;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.cemento:hover::before {
+  transform: translate(0); }
 
 .zoom {
   transition: transform .2s;
@@ -695,7 +804,7 @@ main {
 /* INDEX */
 /* Quinta seccion */
 .seccion_cinco {
-  background-image: url("../recursos/home/wesley-tingey-KCvF6uN0KAA-unsplash.jpg");
+  background-image: url("../../recursos/wesley-tingey-KCvF6uN0KAA-unsplash.jpg");
   background-size: cover;
   margin-bottom: 30px; }
 

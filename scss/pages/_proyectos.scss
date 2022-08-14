@@ -1,24 +1,5 @@
 /* PROYECTOS */    /* Primera seccion */
-.titulo__proyecto::before {
-    content: " ";
-    display: block;
-    width: 5px;
-    height: 10px;
-    position: absolute;
-    top: 367px;
-    right: 245px;
-    border-bottom: 3px solid grey; 
-    &:hover::before {
-        content: " ";
-        display: inline-block;
-        width: 240px;
-        height: 10px;
-        position: absolute;
-        top: 367px;
-        right: 247px;
-        border-bottom: 3px solid grey;
-        transition: all 2s; }
-}
+
 /* PROYECTOS */    /* Segunda seccion */
 .proyecto{
     &__imagenes {
