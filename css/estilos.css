@@ -67,28 +67,16 @@ header {
 
 /* NOSOTROS */
 /* Primera Seccion */
+.conten {
+  overflow: hidden; }
+
+.zoom {
+  transition: transform .5s; }
+  .zoom:hover {
+    transform: scale(1.2); }
+
 .seccion__nos {
   margin-bottom: 50px; }
-
-.nosotros__titu::before {
-  content: " ";
-  display: block;
-  width: 5px;
-  height: 10px;
-  position: absolute;
-  top: 340px;
-  left: 270px;
-  border-bottom: 3px solid grey; }
-  .nosotros__titu::before:hover::before {
-    content: " ";
-    display: inline-block;
-    width: 226px;
-    height: 10px;
-    position: absolute;
-    top: 340px;
-    left: 270px;
-    border-bottom: 3px solid grey;
-    transition: all 2s; }
 
 /* NOSOTROS */
 /* Segunda Seccion */
@@ -314,9 +302,11 @@ header {
 .cemento:hover::before {
   transform: translate(0); }
 
-.zoom {
-  transition: transform .2s;
+.conten {
   overflow: hidden; }
+
+.zoom {
+  transition: transform .5s; }
   .zoom:hover {
     transform: scale(1.2); }
 

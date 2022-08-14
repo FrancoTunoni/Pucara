@@ -1,6 +1,8 @@
+.conten{
+    overflow: hidden;
+}
 .zoom {
-    transition: transform .2s;
-    overflow: hidden; 
+    transition: transform .5s;
     &:hover {
         transform: scale(1.2); 
     }

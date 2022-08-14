@@ -1,27 +1,15 @@
 /* NOSOTROS */     /* Primera Seccion */
+.conten{
+    overflow: hidden;
+}
+.zoom {
+    transition: transform .5s;
+    &:hover {
+        transform: scale(1.2); 
+    }
+}
 .seccion__nos{
     margin-bottom: 50px;
-}
-.nosotros__titu::before {
-    content: " ";
-    display: block;
-    width: 5px;
-    height: 10px;
-    position: absolute;
-    top: 340px;
-    left: 270px;
-    border-bottom: 3px solid grey; 
-    &:hover::before {
-        content: " ";
-        display: inline-block;
-        width: 226px;
-        height: 10px;
-        position: absolute;
-        top: 340px;
-        left: 270px;
-        border-bottom: 3px solid grey;
-        transition: all 2s; 
-    }
 }
 /* NOSOTROS */     /* Segunda Seccion */
 .seccion__nosdos{
