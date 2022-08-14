@@ -26,15 +26,34 @@
 </head>
 <body>
     <header> <!--Encabezado -->
-        <nav class="header__nav">
-            <a href="../index.html"><img class="header__logo" src="recursos/favicon.ico" alt="Logo"></a>
-            <ul class="header__lista">
-                <li class="header__item"><a href="#">Inicio</a></li>
-                <li class="header__item"><a href="pagina/nosotros.html">Nosotros</a></li>
-                <li class="header__item"><a href="pagina/proyectos.html">Proyectos</a></li>
-                <li class="header__item"><a href="pagina/galeria.html">Galeria</a></li>
-                <li class="header__item"><a href="pagina/contacto.html">Contacto</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg header">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="recursos/favicon.ico" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse div__nav" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" " href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pagina/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pagina/proyectos.html">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pagina/galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pagina/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main>

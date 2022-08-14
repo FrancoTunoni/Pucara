@@ -8,7 +8,13 @@
 @import"pages/contacto";
 @import "mediaqueries";
 
-
+/* HEADER */
+.header{
+    background-color: white;
+}
+.nav-item{
+    display: inline-block;
+}
 * {
     margin: 0px;
     padding: 0px; }

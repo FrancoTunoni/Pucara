@@ -4,21 +4,6 @@
 header {
     height: auto;
     position: relative; }
-    .header{
-        &__logo {
-            width: 30px; 
-        }
-        &__nav {
-            flex-direction: column;
-            justify-content: center; 
-            align-items: center;
-        }
-        &__lista {
-            flex-direction: column;
-            justify-content: center;
-            align-self: center;
-        }
-}
 /* INDEX */      /* Primera seccion */
 .seccion__uno{
     display: flex;
@@ -219,19 +204,6 @@ header {
 /* HEADER */
 header {
     height: auto; }
-    .header{
-        &__logo {
-            width: 30px; 
-        }
-        &__nav {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: start; 
-        }
-        &__lista {
-        flex-grow: 1; 
-        }
-    }
 /* INDEX */     /* Primera seccion */
 .seccion__uno{
     display: flex;
