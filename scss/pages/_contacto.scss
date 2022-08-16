@@ -1,3 +1,8 @@
+.seccion_contacto{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
 .conten{
     overflow: hidden;
 }
@@ -12,6 +17,9 @@
     display: inline; 
 }
 .section_dos{
+    height: 80vh;
+    display: flex;
+    align-items: center;
     margin-bottom: 50px;
 }
 .contacto__tarjetas{
@@ -24,23 +32,8 @@
 .tajeta__dos{
     width: 350px;
 }
-/*
-.contacto__tarjetas {
-    display: grid;
-    height: 60vh;
-    grid-template-columns: 1fr 0.5fr 1fr 0.5fr 1fr;
-    grid-template-rows: 0.3fr;
-    margin-bottom: 5px; 
-}
-.tajeta__uno {
-    grid-column: 2/3;
-    grid-row: 1/2; 
-}
-.tajeta__dos {
-    grid-column: 4/5;
-    grid-row: 1/2; 
-}*/
 /* CONTACTO SECCION TRES */
 .section_tres{
+    height: 60vh;
     margin-bottom: 50px;
 }

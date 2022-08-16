@@ -1,4 +1,10 @@
 /* PROYECTOS */    /* Primera seccion */
+.seccion__proyectouno{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
 /* PROYECTOS */    /* Segunda seccion */
 .proyecto{
     &__imagenes {

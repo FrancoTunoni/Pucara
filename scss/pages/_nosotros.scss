@@ -9,11 +9,16 @@
     }
 }
 .seccion__nos{
-    margin-bottom: 50px;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /* NOSOTROS */     /* Segunda Seccion */
 .seccion__nosdos{
-    margin-bottom: 50px;
+    height: 80vh;
+    display: flex;
+    align-items: center;
 }
 .historia {
     display: flex;
@@ -37,7 +42,12 @@
     }
 }
 /* NOSOTROS */   /* Tercera Seccion */
-
+.seccion__nostres{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .camino__anio {
     font-size: 20px; }
 .camino__parrafo {
