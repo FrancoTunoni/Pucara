@@ -154,6 +154,10 @@ header {
 .proyecto__numero {
   justify-content: flex-end; }
 
+.galeria__titu {
+  display: flex;
+  text-align: center; }
+
 .imagenes__grid {
   display: grid;
   column-gap: 5px;
@@ -382,6 +386,8 @@ header {
   /* Tercera seccion */
   /* INDEX */
   /* Cuarta seccion */
+  .seccion__indexcuatro {
+    margin-bottom: 1px; }
   .imag_solucion {
     display: none;
     margin-bottom: 10px; }
@@ -398,20 +404,26 @@ header {
   /* Quinta seccion */
   .seccion_cinco {
     margin-bottom: 10px; }
-  .contacto__titulo {
-    color: #1a356b;
-    font-size: 32px; }
   .contacto__interaccion {
     color: #1a356b;
     font-size: 22px; }
+  .boton {
+    font-size: 30px;
+    letter-spacing: .5rem;
+    margin-bottom: 30px; }
   /* NOSOTROS */
   /* Primera seccion */
-  .nosotros__titu::before {
-    display: none; }
+  .seccion__nos {
+    height: 10vh;
+    align-items: flex-start;
+    justify-content: center; }
   .img__nos {
     display: none; }
   /* NOSOTROS */
   /* segunda seccion */
+  .seccion__nosdos {
+    height: 185vh;
+    align-items: flex-start; }
   .imag__nuestro {
     margin-bottom: 50px; }
   .parrafo_historia {
@@ -427,9 +439,11 @@ header {
     display: none; }
   /* PROYECTOS */
   /* Primera seccion */
+  .seccion__proyectouno {
+    height: 5vh;
+    align-items: flex-start;
+    justify-content: center; }
   .imag__dest {
-    display: none; }
-  .titulo__proyecto::before {
     display: none; }
   /* PROYECTOS */
   /* Segunda seccion */
@@ -442,6 +456,22 @@ header {
     grid-template-areas: "circulo"  "cruz" "jardin" "frente" "patio"  "cemento" "porton"; }
   .circulo {
     cursor: pointer; }
+  .circulo::before {
+    content: url("../recursos/loupe_FILL0_wght400_GRAD0_opsz48.svg");
+    font-size: 1.5rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(250, 235, 215, 0.436);
+    transform: translate(100%);
+    transition: transform .4s;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .circulo:hover::before {
+    transform: translate(0); }
   .cruz {
     cursor: pointer; }
   .frente {
@@ -457,7 +487,9 @@ header {
   /* CONTACTO */
   /* Primera seccion */
   .seccion_contacto {
-    display: flex; }
+    height: 30vh;
+    display: flex;
+    align-items: flex-start; }
   .arti__uno {
     flex-direction: column-reverse; }
   .titulo__contacto {
@@ -471,6 +503,8 @@ header {
   /* CONTACTO */
   /* Tercera seccion */
   .section_tres {
+    height: 90vh;
+    align-items: flex-start;
     display: flex;
     flex-direction: column; }
   .enviar {
@@ -549,11 +583,17 @@ header {
     margin-bottom: 10px; }
   /* NOSOTROS */
   /* Primera seccion */
+  .seccion__nos {
+    height: 30vh;
+    align-items: flex-start;
+    justify-content: center; }
   .nosotros__titu::before {
     display: none; }
   /* NOSOTROS */
   /* segunda seccion */
   .seccion__nosdos {
+    height: 120vh;
+    align-items: flex-start;
     margin-bottom: 30px; }
   .parrafo_historia {
     margin-bottom: 1px; }
@@ -571,10 +611,10 @@ header {
   /* Cuarta seccion */
   /* PROYECTOS */
   /* Primera seccion */
-  .imag__dest {
-    display: none; }
-  .titulo__proyecto::before {
-    display: none; }
+  .seccion__proyectouno {
+    height: 20vh;
+    align-items: flex-start;
+    justify-content: center; }
   /* PROYECTOS */
   /* Segunda seccion */
   .titulo__proyecto {
@@ -619,14 +659,22 @@ header {
     cursor: pointer; }
   /* CONTACTO */
   /* Primera seccion */
+  .seccion_contacto {
+    height: 30vh;
+    display: flex;
+    align-items: flex-start; }
   /* CONTACTO */
   /* segunda seccion */
-  .imag__cont {
+  .ocultar {
     display: none; }
   .section_dos {
+    height: 70vh;
+    align-items: flex-start;
     margin-bottom: 2px; }
   /* CONTACTO */
   /* Tercera seccion */
+  .section_tres {
+    height: 40vh; }
   .contacto__tarjetas {
     display: flex;
     justify-content: space-around;
@@ -774,5 +822,7 @@ main {
   color: #1a356b;
   font-size: 25px; }
 
-.boton__contact {
-  display: inline-block; }
+.boton {
+  font-size: 30px;
+  letter-spacing: 1rem;
+  margin-bottom: 50px; }

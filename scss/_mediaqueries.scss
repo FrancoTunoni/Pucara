@@ -24,6 +24,9 @@ header {
 }
 /* INDEX */      /* Tercera seccion */
 /* INDEX */      /* Cuarta seccion */
+.seccion__indexcuatro{
+    margin-bottom: 1px;
+}
 .imag_solucion{
     display: none;
     margin-bottom: 10px;
@@ -43,22 +46,29 @@ header {
 .seccion_cinco{
     margin-bottom: 10px;
 }
-.contacto__titulo {
-    color: #1a356b;
-    font-size: 32px;
-}
 .contacto__interaccion {
     color: #1a356b;
     font-size: 22px;
 }
+.boton{
+    font-size: 30px;
+    letter-spacing: .5rem;
+    margin-bottom: 30px;
+}
 /* NOSOTROS */   /* Primera seccion */
-.nosotros__titu::before {
-    display: none; 
+.seccion__nos{
+    height: 10vh;
+    align-items: flex-start;
+    justify-content: center;
 }
 .img__nos{
     display: none;
 }
 /* NOSOTROS */   /* segunda seccion */
+.seccion__nosdos{
+    height: 185vh;
+    align-items: flex-start;
+}
 .imag__nuestro{
     margin-bottom: 50px;
 }
@@ -77,10 +87,14 @@ header {
     display:none;
 }
 /* PROYECTOS */   /* Primera seccion */
-    .imag__dest {
-        display: none; }
-    .titulo__proyecto::before {
-        display: none; }
+.seccion__proyectouno{
+    height: 5vh;
+    align-items: flex-start;
+    justify-content: center;
+}
+.imag__dest{
+    display: none;
+}
 /* PROYECTOS */    /* Segunda seccion */
 /* GALERIA */      /* Primera seccion */
 .imagenes__grid {
@@ -96,22 +110,49 @@ header {
                         "porton"; 
     }
 .circulo {
-    cursor: pointer; }
+    cursor: pointer; 
+}
+.circulo::before{
+    content:url("../recursos/loupe_FILL0_wght400_GRAD0_opsz48.svg");
+    font-size: 1.5rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(250, 235, 215, 0.436);
+    transform: translate(100%);
+    transition: transform .4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circulo:hover::before{
+    transform: translate(0);
+}
 .cruz {
-    cursor: pointer; }
+    cursor: pointer; 
+}
 .frente {
-    cursor: pointer; }
+    cursor: pointer; 
+}
 .patio {
-    cursor: pointer; }
+    cursor: pointer; 
+}
 .jardin {
-    cursor: pointer; }
+    cursor: pointer; 
+}
 .porton {
-    cursor: pointer; }
+    cursor: pointer; 
+}
 .cemento {
-    cursor: pointer; }
+    cursor: pointer; 
+}
 /* CONTACTO */     /* Primera seccion */
 .seccion_contacto{
+    height: 30vh;
     display: flex;
+    align-items: flex-start;
 }
 .arti__uno{
     flex-direction: column-reverse;
@@ -128,6 +169,8 @@ header {
 }
 /* CONTACTO */     /* Tercera seccion */
 .section_tres{
+    height: 90vh;
+    align-items: flex-start;
     display: flex;
     flex-direction:column;
 }
@@ -223,10 +266,17 @@ header {
     margin-bottom: 10px;
 }
 /* NOSOTROS */   /* Primera seccion */
+.seccion__nos{
+    height: 30vh;
+    align-items: flex-start;
+    justify-content: center;
+}
     .nosotros__titu::before {
         display: none; }
 /* NOSOTROS */   /* segunda seccion */
 .seccion__nosdos{
+    height: 120vh;
+    align-items: flex-start;
     margin-bottom: 30px;
 }
 .parrafo_historia{
@@ -247,11 +297,11 @@ header {
 }
 /* NOSOTROS */   /* Cuarta seccion */
 /* PROYECTOS */   /* Primera seccion */
-.imag__dest{
-    display: none;
+.seccion__proyectouno{
+    height: 20vh;
+    align-items: flex-start;
+    justify-content: center;
 }
-    .titulo__proyecto::before {
-        display: none; }
 /* PROYECTOS */    /* Segunda seccion */
 .titulo__proyecto {
     text-align: center; 
@@ -305,14 +355,24 @@ header {
     .cemento {
         cursor: pointer; }
 /* CONTACTO */    /* Primera seccion */
+.seccion_contacto{
+    height: 30vh;
+    display: flex;
+    align-items: flex-start;
+}
 /* CONTACTO */    /* segunda seccion */
-.imag__cont {
-    display: none; 
+.ocultar{
+    display: none;
 }
 .section_dos{
+    height: 70vh;
+    align-items: flex-start;
     margin-bottom: 2px;
 }
 /* CONTACTO */    /* Tercera seccion */
+.section_tres{
+    height: 40vh;
+}
 .contacto__tarjetas{
     display: flex;
     justify-content: space-around;
