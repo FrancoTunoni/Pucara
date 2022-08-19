@@ -5,9 +5,8 @@ header {
     height: auto;
     position: relative; }
 /* INDEX */      /* Primera seccion */
-.seccion__unoo{
-    height: 90vh;
-    display: flex;
+.seccion__uno{
+    height: 65vh;
     align-items: flex-start;
 }
 .articulo__uno{
@@ -22,15 +21,19 @@ header {
 }
 /* INDEX */      /* segunda seccion */
 .seccion__dos{
-    height: 80vh;
-    display: flex;
-    align-items: center;
+    height: 100vh;
+    align-items: flex-start;
     margin-bottom: 30px;
 }
 .imag_nos{
     margin-bottom: 30px;
 }
 /* INDEX */      /* Tercera seccion */
+.seccion__indextres{
+    height: 85vh;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
 /* INDEX */      /* Cuarta seccion */
 .seccion__indexcuatro{
     margin-bottom: 1px;
