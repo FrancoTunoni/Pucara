@@ -143,9 +143,12 @@ header {
 }
 /* CONTACTO */     /* Primera seccion */
 .seccion_contacto{
-    height: 30vh;
+    height: 35vh;
     display: flex;
     align-items: flex-start;
+}
+.enviar{
+    width: 75px;
 }
 .arti__uno{
     flex-direction: column-reverse;
@@ -156,6 +159,15 @@ header {
 /* CONTACTO */     /* Segunda seccion */
 .section_dos{
     margin-bottom: 1px;
+}
+.botones__contacto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.section_dos{
+    height: 400px;
+    align-items: flex-start;
 }
 .imag__cont {
     display: none; 
@@ -234,7 +246,6 @@ header {
         } 
     }
 }
-
 /* MEDIA TABLET ----------------------------------------------------------------------------- */
 @media (min-width: 576px) and (max-width: 992px) {
 /* HEADER */
@@ -242,10 +253,13 @@ header {
     height: auto; }
 /* INDEX */     /* Primera seccion */
 .seccion__uno{
-    display: flex;
-    flex-direction: row;
+    height: 30vh;
+    align-items: flex-start;
 }
 /* INDEX */     /* segunda seccion */
+.seccion__dos{
+    margin-bottom: 50px;
+}
 .imag_nos{
     margin-bottom: 30px;
 }
@@ -255,6 +269,11 @@ header {
     display: none;
 }
 /* INDEX */     /* Quinta seccion */
+.boton{
+    font-size: 30px;
+    letter-spacing: .2rem;
+    margin-bottom: 50px;
+}
 .seccion_cinco{
     margin-bottom: 10px;
 }
@@ -354,17 +373,22 @@ header {
     align-items: flex-start;
 }
 /* CONTACTO */    /* segunda seccion */
+.botones__contacto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 .ocultar{
     display: none;
 }
 .section_dos{
-    height: 70vh;
+    height: 65vh;
     align-items: flex-start;
     margin-bottom: 2px;
 }
 /* CONTACTO */    /* Tercera seccion */
 .section_tres{
-    height: 40vh;
+    height: 35vh;
 }
 .contacto__tarjetas{
     display: flex;

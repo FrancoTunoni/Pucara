@@ -323,12 +323,9 @@ header {
   transform: translate(0); }
 
 .seccion_contacto {
-  height: 80vh;
+  height: 90vh;
   display: flex;
   align-items: center; }
-
-.conten {
-  overflow: hidden; }
 
 .zoom {
   transition: transform .5s; }
@@ -339,9 +336,11 @@ header {
 .telefono {
   display: inline; }
 
+.enviar {
+  width: 160px; }
+
 .section_dos {
   height: 80vh;
-  display: flex;
   align-items: center;
   margin-bottom: 50px; }
 
@@ -479,9 +478,11 @@ header {
   /* CONTACTO */
   /* Primera seccion */
   .seccion_contacto {
-    height: 30vh;
+    height: 35vh;
     display: flex;
     align-items: flex-start; }
+  .enviar {
+    width: 75px; }
   .arti__uno {
     flex-direction: column-reverse; }
   .titulo__contacto {
@@ -490,6 +491,13 @@ header {
   /* Segunda seccion */
   .section_dos {
     margin-bottom: 1px; }
+  .botones__contacto {
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+  .section_dos {
+    height: 400px;
+    align-items: flex-start; }
   .imag__cont {
     display: none; }
   /* CONTACTO */
@@ -557,10 +565,12 @@ header {
   /* INDEX */
   /* Primera seccion */
   .seccion__uno {
-    display: flex;
-    flex-direction: row; }
+    height: 30vh;
+    align-items: flex-start; }
   /* INDEX */
   /* segunda seccion */
+  .seccion__dos {
+    margin-bottom: 50px; }
   .imag_nos {
     margin-bottom: 30px; }
   /* INDEX */
@@ -571,6 +581,10 @@ header {
     display: none; }
   /* INDEX */
   /* Quinta seccion */
+  .boton {
+    font-size: 30px;
+    letter-spacing: .2rem;
+    margin-bottom: 50px; }
   .seccion_cinco {
     margin-bottom: 10px; }
   /* NOSOTROS */
@@ -657,16 +671,20 @@ header {
     align-items: flex-start; }
   /* CONTACTO */
   /* segunda seccion */
+  .botones__contacto {
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
   .ocultar {
     display: none; }
   .section_dos {
-    height: 70vh;
+    height: 65vh;
     align-items: flex-start;
     margin-bottom: 2px; }
   /* CONTACTO */
   /* Tercera seccion */
   .section_tres {
-    height: 40vh; }
+    height: 35vh; }
   .contacto__tarjetas {
     display: flex;
     justify-content: space-around;
