@@ -409,15 +409,16 @@ header {
     font-size: 16px; }
   /* INDEX */
   /* Quinta seccion */
-  .seccion_cinco {
-    margin-bottom: 10px; }
-  .contacto__interaccion {
-    color: #1a356b;
-    font-size: 22px; }
   .boton {
-    font-size: 30px;
-    letter-spacing: .5rem;
-    margin-bottom: 30px; }
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .interaccion {
+    font-size: 16px;
+    letter-spacing: 10px; }
+  .seccion_cinco {
+    height: 30vh;
+    margin-bottom: 10px; }
   /* NOSOTROS */
   /* Primera seccion */
   .seccion__nos {
@@ -561,12 +562,14 @@ header {
 @media (min-width: 576px) and (max-width: 992px) {
   /* HEADER */
   header {
-    height: auto; }
+    height: auto;
+    position: relative; }
   /* INDEX */
   /* Primera seccion */
-  .seccion__uno {
+  .seccion__index {
     height: 30vh;
-    align-items: flex-start; }
+    align-items: flex-start;
+    justify-content: center; }
   /* INDEX */
   /* segunda seccion */
   .seccion__dos {
@@ -582,10 +585,13 @@ header {
   /* INDEX */
   /* Quinta seccion */
   .boton {
-    font-size: 30px;
-    letter-spacing: .2rem;
-    margin-bottom: 50px; }
+    display: flex;
+    justify-content: center; }
+  .interaccion {
+    font-size: 16px;
+    letter-spacing: 10px; }
   .seccion_cinco {
+    height: 15vh;
     margin-bottom: 10px; }
   /* NOSOTROS */
   /* Primera seccion */
@@ -775,7 +781,7 @@ main {
 
 /* INDEX */
 /* Primera seccion */
-.seccion__uno {
+.seccion__index {
   height: 85vh;
   display: flex;
   align-items: center;
@@ -828,13 +834,6 @@ main {
 /* Quinta seccion */
 .seccion_cinco {
   margin-bottom: 30px; }
-
-.contacto__interaccion {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #1a356b;
-  font-size: 25px; }
 
 .boton {
   font-size: 30px;
