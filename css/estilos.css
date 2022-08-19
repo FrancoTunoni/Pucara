@@ -154,9 +154,8 @@ header {
 .proyecto__numero {
   justify-content: flex-end; }
 
-.galeria__titu {
-  display: flex;
-  text-align: center; }
+.titulo__galeria {
+  margin-bottom: 20px; }
 
 .imagenes__grid {
   display: grid;
@@ -369,8 +368,10 @@ header {
     position: relative; }
   /* INDEX */
   /* Primera seccion */
-  .seccion__uno {
-    display: flex; }
+  .seccion__unoo {
+    height: 90vh;
+    display: flex;
+    align-items: flex-start; }
   .articulo__uno {
     flex-direction: column-reverse; }
   .imagendest__index {
@@ -380,6 +381,11 @@ header {
     margin-bottom: 5px; }
   /* INDEX */
   /* segunda seccion */
+  .seccion__dos {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px; }
   .imag_nos {
     margin-bottom: 30px; }
   /* INDEX */
@@ -456,22 +462,6 @@ header {
     grid-template-areas: "circulo"  "cruz" "jardin" "frente" "patio"  "cemento" "porton"; }
   .circulo {
     cursor: pointer; }
-  .circulo::before {
-    content: url("../recursos/loupe_FILL0_wght400_GRAD0_opsz48.svg");
-    font-size: 1.5rem;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(250, 235, 215, 0.436);
-    transform: translate(100%);
-    transition: transform .4s;
-    display: flex;
-    align-items: center;
-    justify-content: center; }
-  .circulo:hover::before {
-    transform: translate(0); }
   .cruz {
     cursor: pointer; }
   .frente {
@@ -765,7 +755,7 @@ main {
 
 /* INDEX */
 /* Primera seccion */
-.seccion__uno {
+.seccion__unoo {
   height: 85vh;
   display: flex;
   align-items: center;
@@ -774,21 +764,31 @@ main {
 /* INDEX */
 /* Segunda seccion */
 .seccion__dos {
-  height: 80vh;
+  height: 85vh;
   display: flex;
   align-items: center;
   margin-bottom: 30px; }
 
 /* INDEX */
 /* Tercera seccion */
+.seccion__indextres {
+  height: 85vh;
+  align-items: center;
+  margin-bottom: 30px; }
+
+.carousel .carousel-item {
+  max-height: 600px; }
+
+.img__carousel {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
 .titulo__proyecto {
   display: flex;
   flex-direction: column;
-  align-items: center; }
-
-.galeria__index {
-  width: 100vw;
-  margin-bottom: 50px; }
+  align-items: center;
+  margin-bottom: 20px; }
 
 .carousel-slide {
   display: flex;
@@ -797,10 +797,9 @@ main {
 /* INDEX */
 /* Cuarta seccion */
 .seccion__indexcuatro {
-  height: 90vh;
+  height: 100vh;
   display: flex;
-  align-items: center;
-  margin-bottom: 30px; }
+  align-items: center; }
 
 .soluciones__subtitulo {
   text-align: end;
