@@ -20,10 +20,15 @@ header {
     margin-bottom: 5px;
 }
 /* INDEX */      /* segunda seccion */
-.seccion__dos{
-    height: 140vh;
+.seccion__indexdos{
+    height: 152vh;
     align-items: flex-start;
     margin-bottom: 10px;
+}
+.nosotros__iteraccion{
+    font-size: 16px;
+    letter-spacing: 5px;
+    color:#ea9898;
 }
 .imag_nos{
     margin-bottom: 30px;
@@ -255,7 +260,7 @@ header {
     position: relative;}
 /* INDEX */     /* Primera seccion */
 .seccion__index{
-    height: 30vh;
+    height: 20vh;
     align-items: flex-start;
 }
 .articulo__uno{
@@ -264,8 +269,15 @@ header {
     justify-content: center;
 }
 /* INDEX */     /* segunda seccion */
-.seccion__dos{
+.seccion__indexdos{
+    height: 115vh;
+    align-items: flex-start;
     margin-bottom: 50px;
+}
+.nosotros__iteraccion{
+    font-size: 16px;
+    letter-spacing: 10px;
+    color:#ea9898;
 }
 .imag_nos{
     margin-bottom: 30px;

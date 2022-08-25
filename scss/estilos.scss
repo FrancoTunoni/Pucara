@@ -20,6 +20,8 @@
     padding: 0px; 
 }
 body {
+    margin: 0px;
+    padding: 0px;
     font-family: $font-principal
 }
 h1 {
@@ -48,11 +50,16 @@ main {
     margin-bottom: 30px;
 }
 /* INDEX */  /* Segunda seccion */
-.seccion__dos{
+.seccion__indexdos{
     height: 90vh;
     display: flex;
     align-items: center;
     margin-bottom: 30px;
+}
+.nosotros__iteraccion{
+    font-size: 30px;
+    letter-spacing: 10px;
+    color:#ea9898;
 }
 /* INDEX */    /* Tercera seccion */
 .carousel{
@@ -97,5 +104,8 @@ main {
     font-size: 30px;
     letter-spacing: 1rem;
     margin-bottom: 50px;
+}
+.interaccion{
+    color: #ea9898
 }
 @import "mediaqueries";
