@@ -6,7 +6,7 @@
 @import"pages/proyectos";
 @import"pages/galeria";
 @import"pages/contacto";
-@import "mediaqueries";
+
 
 /* HEADER */
 .header{
@@ -98,3 +98,4 @@ main {
     letter-spacing: 1rem;
     margin-bottom: 50px;
 }
+@import "mediaqueries";
