@@ -48,7 +48,11 @@
     align-items: center;
     justify-content: center;
 }
-.camino__anio {
-    font-size: 20px; }
-.camino__parrafo {
-    font-size: 16px; }
+.camino{
+    &__anio {
+        font-size: 20px; 
+    }
+    &__parrafo {
+        font-size: 16px; 
+    }
+}
