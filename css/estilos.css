@@ -28,7 +28,7 @@
   background-image: url("../recursos/madera.jpg");
   background-size: contain;
   background-repeat: none;
-  width: 100%;
+  width: 100vw;
   height: 350px;
   grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 0.7fr;
   grid-template-rows: 0.2fr 0.5fr 0.2fr; }
@@ -175,6 +175,8 @@ header {
   row-gap: 5px;
   width: 100vw;
   height: 100vw;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas: " circulo cruz frente" " patio jardin frente" " patio cemento porton";
   margin-bottom: 5px; }
 
@@ -486,8 +488,10 @@ main {
   /* Segunda seccion */
   /* GALERIA */
   /* Primera seccion */
+  .titulo__galeria {
+    margin-bottom: 10px; }
   .imagenes__grid {
-    height: 300vw;
+    height: 1000px;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "circulo"  "cruz" "jardin" "frente" "patio"  "cemento" "porton"; }

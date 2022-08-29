@@ -114,8 +114,11 @@ header {
 }
 /* PROYECTOS */    /* Segunda seccion */
 /* GALERIA */      /* Primera seccion */
+.titulo__galeria{
+    margin-bottom: 10px;
+}
 .imagenes__grid {
-    height: 300vw;
+    height: 1000px;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "circulo" 

@@ -7,6 +7,8 @@
     row-gap: 5px;
     width: 100vw;
     height: 100vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: " circulo cruz frente"
                         " patio jardin frente"
                         " patio cemento porton";
