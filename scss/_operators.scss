@@ -7,3 +7,15 @@
     overflow: hidden;
     cursor: pointer; 
 }
+.position-img{
+    font-size: 1.5rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(250, 235, 215, 0.436);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

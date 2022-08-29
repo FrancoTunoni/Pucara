@@ -11,12 +11,24 @@
   overflow: hidden;
   cursor: pointer; }
 
+.position-img, .circulo::before, .cruz::before, .frente::before, .patio::before, .jardin::before, .porton::before, .cemento::before {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(250, 235, 215, 0.436);
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
 .footer__grid {
   display: grid;
   background-image: url("../recursos/madera.jpg");
   background-size: contain;
   background-repeat: none;
-  width: 100vw;
+  width: 100%;
   height: 350px;
   grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 0.7fr;
   grid-template-rows: 0.2fr 0.5fr 0.2fr; }
@@ -57,7 +69,7 @@ header {
   position: sticky;
   top: 0px;
   background-color: white;
-  width: 100vw; }
+  height: 100%; }
 
 .nav-item {
   display: inline-block; }
@@ -163,8 +175,6 @@ header {
   row-gap: 5px;
   width: 100vw;
   height: 100vw;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas: " circulo cruz frente" " patio jardin frente" " patio cemento porton";
   margin-bottom: 5px; }
 
@@ -173,18 +183,8 @@ header {
   background-image: url("../recursos/galeria11.jpeg"); }
   .circulo::before {
     content: url("../recursos/loupe_FILL0_wght400_GRAD0_opsz48.svg");
-    font-size: 1.5rem;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(250, 235, 215, 0.436);
     transform: translate(100%);
-    transition: transform .4s;
-    display: flex;
-    align-items: center;
-    justify-content: center; }
+    transition: transform .4s; }
   .circulo:hover::before {
     transform: translate(0); }
 
@@ -193,18 +193,8 @@ header {
   background-image: url("../recursos/galeria10.jpeg"); }
   .cruz::before {
     content: url("../recursos/loupe_FILL0_wght400_GRAD0_opsz48.svg");
-    font-size: 1.5rem;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(250, 235, 215, 0.436);
     transform: translate(-100%);
-    transition: transform .4s;
-    display: flex;
-    align-items: center;
-    justify-content: center; }
+    transition: transform .4s; }
   .cruz:hover::before {
     transform: translate(0); }
 
@@ -213,18 +203,8 @@ header {
   background-image: url("../recursos/galeria12.jpeg"); }
   .frente::before {
     content: url("../recursos/loupe_FILL0_wght400_GRAD0_opsz48.svg");
-    font-size: 1.5rem;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(250, 235, 215, 0.436);
     transform: translate(-100%);
-    transition: transform .4s;
-    display: flex;
-    align-items: center;
-    justify-content: center; }
+    transition: transform .4s; }
   .frente:hover::before {
     transform: translate(0); }
 
@@ -233,18 +213,8 @@ header {
   background-image: url("../recursos/galeria11.jpeg"); }
   .patio::before {
     content: url("../recursos/loupe_FILL0_wght400_GRAD0_opsz48.svg");
-    font-size: 1.5rem;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(250, 235, 215, 0.436);
     transform: translate(100%);
-    transition: transform .4s;
-    display: flex;
-    align-items: center;
-    justify-content: center; }
+    transition: transform .4s; }
   .patio:hover::before {
     transform: translate(0); }
 
@@ -253,18 +223,8 @@ header {
   background-image: url("../recursos/galeria7.jpeg"); }
   .jardin::before {
     content: url("../recursos/loupe_FILL0_wght400_GRAD0_opsz48.svg");
-    font-size: 1.5rem;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(250, 235, 215, 0.436);
     transform: translate(100%);
-    transition: transform .4s;
-    display: flex;
-    align-items: center;
-    justify-content: center; }
+    transition: transform .4s; }
   .jardin:hover::before {
     transform: translate(0); }
 
@@ -273,18 +233,8 @@ header {
   background-image: url("../recursos/galeria3.jpeg"); }
   .porton::before {
     content: url("../recursos/loupe_FILL0_wght400_GRAD0_opsz48.svg");
-    font-size: 1.5rem;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(250, 235, 215, 0.436);
     transform: translate(-100%);
-    transition: transform .4s;
-    display: flex;
-    align-items: center;
-    justify-content: center; }
+    transition: transform .4s; }
   .porton:hover::before {
     transform: translate(0); }
 
@@ -293,18 +243,8 @@ header {
   background-image: url("../recursos/galeria8.jpeg"); }
   .cemento::before {
     content: url("../recursos/loupe_FILL0_wght400_GRAD0_opsz48.svg");
-    font-size: 1.5rem;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(250, 235, 215, 0.436);
     transform: translate(-100%);
-    transition: transform .4s;
-    display: flex;
-    align-items: center;
-    justify-content: center; }
+    transition: transform .4s; }
   .cemento:hover::before {
     transform: translate(0); }
 
@@ -346,13 +286,7 @@ header {
   height: 60vh;
   margin-bottom: 50px; }
 
-/* HEADER */
-.header {
-  background-color: white; }
-
-.nav-item {
-  display: inline-block; }
-
+/* EMPIEZA EL CODIGO*/
 * {
   margin: 0px;
   padding: 0px; }

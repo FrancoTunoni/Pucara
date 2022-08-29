@@ -7,8 +7,6 @@
     row-gap: 5px;
     width: 100vw;
     height: 100vw;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: " circulo cruz frente"
                         " patio jardin frente"
                         " patio cemento porton";
@@ -20,18 +18,9 @@
     @extend .background-centrado;
     &::before{
         content:url("../recursos/loupe_FILL0_wght400_GRAD0_opsz48.svg");
-        font-size: 1.5rem;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background-color: rgba(250, 235, 215, 0.436);
+        @extend .position-img;
         transform: translate(100%);
         transition: transform .4s;
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
     &:hover::before{
         transform: translate(0);
@@ -43,18 +32,9 @@
     @extend .background-centrado;
     &::before{
         content:url("../recursos/loupe_FILL0_wght400_GRAD0_opsz48.svg");
-        font-size: 1.5rem;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background-color: rgba(250, 235, 215, 0.436);
+        @extend .position-img;
         transform: translate(-100%);
         transition: transform .4s;
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
     &:hover::before{
         transform: translate(0);
@@ -66,18 +46,9 @@
     @extend .background-centrado ;
     &::before{
         content:url("../recursos/loupe_FILL0_wght400_GRAD0_opsz48.svg");
-        font-size: 1.5rem;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background-color: rgba(250, 235, 215, 0.436);
+        @extend .position-img;
         transform: translate(-100%);
         transition: transform .4s;
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
     &:hover::before{
         transform: translate(0);
@@ -89,18 +60,9 @@
     @extend .background-centrado;
     &::before{
         content:url("../recursos/loupe_FILL0_wght400_GRAD0_opsz48.svg");
-        font-size: 1.5rem;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background-color: rgba(250, 235, 215, 0.436);
+        @extend .position-img;
         transform: translate(100%);
         transition: transform .4s;
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
     &:hover::before{
         transform: translate(0);
@@ -112,18 +74,9 @@
     @extend .background-centrado;
     &::before{
         content:url("../recursos/loupe_FILL0_wght400_GRAD0_opsz48.svg");
-        font-size: 1.5rem;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background-color: rgba(250, 235, 215, 0.436);
+        @extend .position-img;
         transform: translate(100%);
         transition: transform .4s;
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
     &:hover::before{
         transform: translate(0);
@@ -135,18 +88,9 @@
     @extend .background-centrado;
     &::before{
         content:url("../recursos/loupe_FILL0_wght400_GRAD0_opsz48.svg");
-        font-size: 1.5rem;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background-color: rgba(250, 235, 215, 0.436);
+        @extend .position-img;
         transform: translate(-100%);
         transition: transform .4s;
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
     &:hover::before{
         transform: translate(0);
@@ -158,18 +102,9 @@
     @extend .background-centrado;
     &::before{
         content:url("../recursos/loupe_FILL0_wght400_GRAD0_opsz48.svg");
-        font-size: 1.5rem;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background-color: rgba(250, 235, 215, 0.436);
+        @extend .position-img;
         transform: translate(-100%);
         transition: transform .4s;
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
     &:hover::before{
         transform: translate(0);

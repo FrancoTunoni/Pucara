@@ -7,14 +7,7 @@
 @import"pages/galeria";
 @import"pages/contacto";
 
-
-/* HEADER */
-.header{
-    background-color: white;
-}
-.nav-item{
-    display: inline-block;
-}
+/* EMPIEZA EL CODIGO*/
 * {
     margin: 0px;
     padding: 0px; 
@@ -87,13 +80,15 @@ main {
     display: flex;
     align-items: center;
 }
-.soluciones__subtitulo {
-    text-align: end;
-    font-size: 20px; 
-}
-.soluciones__datos {
-    text-align: end;
-    font-size: 16px; 
+.soluciones{
+    &__subtitulo {
+        text-align: end;
+        font-size: 20px; 
+    }
+    &__datos {
+        text-align: end;
+        font-size: $footer-letrita; 
+    }
 }
 /* INDEX */      /* Quinta seccion */
 .seccion_cinco {

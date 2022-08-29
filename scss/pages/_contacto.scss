@@ -27,11 +27,13 @@
     display: flex;
     justify-content: space-around;
 }
-.tajeta__uno{
-    width: 350px;
-}
-.tajeta__dos{
-    width: 350px;
+.tajeta{
+    &__uno{
+        width: 350px;
+    }
+    &__dos{
+        width: 350px;
+    }
 }
 /* CONTACTO SECCION TRES */
 .section_tres{

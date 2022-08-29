@@ -35,7 +35,7 @@
         margin-bottom: 30px; 
     }
     &__parrafo {
-        font-size: 16px;
+        font-size: $footer-letrita;
         width: 80%;
         align-self: center;
         line-height: 1.5; 
@@ -53,6 +53,6 @@
         font-size: 20px; 
     }
     &__parrafo {
-        font-size: 16px; 
+        font-size: $footer-letrita; 
     }
 }
